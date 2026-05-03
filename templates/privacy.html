@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — Spendly{% endblock %}
+
+{% block content %}
+<section class="auth-section">
+    <div style="max-width: 720px; margin: 0 auto; padding: 3rem 1.5rem;">
+        <h1 class="hero-title" style="font-size: 2.5rem; margin-bottom: 0.5rem;">Privacy Policy</h1>
+        <p style="color: var(--ink-muted); margin-bottom: 3rem;">Last updated: May 2026</p>
+
+        <div style="display: flex; flex-direction: column; gap: 2.5rem;">
+
+            <div>
+                <h2 style="font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.75rem;">1. Data We Collect</h2>
+                <p style="color: var(--ink-soft); line-height: 1.7;">
+                    When you use Spendly, we collect only the information necessary to provide the Service:
+                </p>
+                <ul style="color: var(--ink-soft); line-height: 1.9; margin-top: 0.75rem; padding-left: 1.5rem;">
+                    <li><strong>Account information</strong> — your name and email address provided at registration.</li>
+                    <li><strong>Expense data</strong> — amounts, categories, dates, and descriptions you enter.</li>
+                    <li><strong>Usage data</strong> — basic logs such as login timestamps to maintain account security.</li>
+                </ul>
+                <p style="color: var(--ink-soft); line-height: 1.7; margin-top: 0.75rem;">
+                    We do not collect payment information, location data, or any data beyond what you explicitly provide.
+                </p>
+            </div>
+
+            <div>
+                <h2 style="font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.75rem;">2. How We Use Your Data</h2>
+                <p style="color: var(--ink-soft); line-height: 1.7;">
+                    Your data is used exclusively to operate and improve Spendly. Specifically, we use it to:
+                </p>
+                <ul style="color: var(--ink-soft); line-height: 1.9; margin-top: 0.75rem; padding-left: 1.5rem;">
+                    <li>Display your expenses, summaries, and spending breakdowns within the app.</li>
+                    <li>Authenticate your account and keep your session secure.</li>
+                    <li>Identify and fix bugs or performance issues in the Service.</li>
+                </ul>
+                <p style="color: var(--ink-soft); line-height: 1.7; margin-top: 0.75rem;">
+                    We never sell, rent, or share your personal or financial data with third parties for marketing purposes.
+                </p>
+            </div>
+
+            <div>
+                <h2 style="font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.75rem;">3. Data Storage</h2>
+                <p style="color: var(--ink-soft); line-height: 1.7;">
+                    Your data is stored in a secured database accessible only to the Service. Passwords are hashed
+                    before storage and are never stored in plain text. We take reasonable technical measures to protect
+                    your data against unauthorized access, alteration, or deletion. However, no method of storage or
+                    transmission over the internet is completely secure, and we cannot guarantee absolute security.
+                    You may request deletion of your account and all associated data at any time.
+                </p>
+            </div>
+
+            <div>
+                <h2 style="font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.75rem;">4. Third-Party Services</h2>
+                <p style="color: var(--ink-soft); line-height: 1.7;">
+                    Spendly loads fonts from Google Fonts, which may set cookies or log your IP address in accordance
+                    with Google's own privacy policy. Beyond this, we do not integrate with third-party analytics,
+                    advertising networks, or external APIs that receive your personal data. Any future integrations
+                    will be disclosed in an updated version of this policy.
+                </p>
+            </div>
+
+            <div>
+                <h2 style="font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.75rem;">5. Contact Us</h2>
+                <p style="color: var(--ink-soft); line-height: 1.7;">
+                    If you have questions, concerns, or requests regarding your data or this Privacy Policy, please
+                    reach out to us. We aim to respond to all privacy-related inquiries within 7 business days.
+                    You can contact us via the support link in the app or by emailing the address on file for your
+                    account.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+{% endblock %}
